@@ -107,7 +107,7 @@ class AddTaskTableViewController: UITableViewController, UITextFieldDelegate, UI
         
         if dateComparisionResult == ComparisonResult.orderedSame || subjectTextField.text?.characters.count == 0 || descriptionTextView.text.characters.count == 0
         {
-            let alertController = UIAlertController(title: "Sugeetha :(", message: "Please fill subject, description", preferredStyle: .alert)
+            let alertController = UIAlertController(title: ":( :( :(", message: "Please fill subject, description", preferredStyle: .alert)
             
             alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
                 alertController.dismiss(animated: true, completion: nil)
@@ -134,7 +134,7 @@ class AddTaskTableViewController: UITableViewController, UITextFieldDelegate, UI
                 
             }
             
-            let alertController = UIAlertController(title: "Sugeetha :)", message: "Created New Task", preferredStyle: .alert)
+            let alertController = UIAlertController(title: ":) :) :)", message: "Created New Task", preferredStyle: .alert)
             
             alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
              let _ = self.navigationController?.popViewController(animated: true)
