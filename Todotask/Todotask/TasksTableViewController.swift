@@ -2,8 +2,8 @@
 //  TasksTableViewController.swift
 //  Todotask
 //
-//  Created by Tools Team India on 20/11/16.
-//  Copyright © 2016 Schneider-Electric. All rights reserved.
+//  Created by Anil Kumar on 20/11/16.
+//  Copyright © 2016 Anil Kumar. All rights reserved.
 //
 
 import UIKit
@@ -179,7 +179,6 @@ class TasksTableViewController: UITableViewController, NSFetchedResultsControlle
         case .delete:
             tableView.deleteRows(at: [indexPath!], with: .fade)
             //case .Update:
-        //  self.configureCell(tableView.cellForRowAtIndexPath(indexPath!)!, atIndexPath: indexPath!)
         case .move:
             tableView.deleteRows(at: [indexPath!], with: .fade)
             tableView.insertRows(at: [newIndexPath!], with: .fade)

@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Todotask
 //
-//  Created by Tools Team India on 20/11/16.
-//  Copyright © 2016 Schneider-Electric. All rights reserved.
+//  Created by Anil Kumar on 20/11/16.
+//  Copyright © 2016 Anil Kumar. All rights reserved.
 //
 
 import UIKit
