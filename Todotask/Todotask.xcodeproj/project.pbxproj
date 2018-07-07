@@ -147,7 +147,7 @@
 				TargetAttributes = {
 					65C822521DE197E200B25FD8 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 8AJJ2NRX9T;
+						DevelopmentTeam = BU9AGKFL5U;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -317,10 +317,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8AJJ2NRX9T;
+				DEVELOPMENT_TEAM = BU9AGKFL5U;
 				INFOPLIST_FILE = Todotask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.schneider-electric.Todotask";
+				PRODUCT_BUNDLE_IDENTIFIER = com.todotask.Todotask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -330,10 +330,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8AJJ2NRX9T;
+				DEVELOPMENT_TEAM = BU9AGKFL5U;
 				INFOPLIST_FILE = Todotask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.schneider-electric.Todotask";
+				PRODUCT_BUNDLE_IDENTIFIER = com.todotask.Todotask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
